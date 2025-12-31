@@ -1,0 +1,125 @@
+body{
+    background: hsl(0, 0%, 95%);
+    color: hsl(0, 0%, 95%);
+    padding: 150px;
+}
+
+p{
+    color: hsla(0, 0%, 100%, 0.75);
+    font-size: 15px;
+    font-family: "Lexend Deca";
+    font-weight: 400;
+    line-height: 25px;
+}
+
+.h1{
+    font-family: "BigShoulders";
+    font-size: 35px;
+    font-weight: 700;
+}
+
+*{box-sizing: border-box;}
+
+.container{
+    max-width: fit-content;
+    border-radius: 15px;
+    padding-bottom: 25px;
+}
+
+.container::after{
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.box1{
+    float: left;
+    background: hsl(31, 77%, 52%);
+    width: 33.33%;
+    padding: 50px;
+    gap: 20px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.box2{
+    float: left;
+    background: hsl(184, 100%, 22%);
+    width: 33.33%;
+    padding: 50px;
+    gap: 20px;
+}
+
+.box3{
+    float: left;
+    background: hsl(179, 100%, 13%);
+    width: 33.33%;
+    padding: 50px;
+    gap: 20px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+button{
+    background: hsl(0, 0%, 95%);
+    border: none;
+    border-radius: 25px;
+    padding: 15px 30px;
+    margin-top: 150px;
+    font-family: "Lexend Deca";
+    font-weight: 400;
+}
+
+.b1{color: hsl(31, 77%, 52%);}
+.b2{color: hsl(184, 100%, 22%);}
+.b3{color: hsl(179, 100%, 13%);}
+
+
+@media (max-width: 768px) {
+    body{
+    padding: 15px;
+    vertical-align: middle;
+}
+
+p{
+    font-size: 12px;
+}
+
+.h1{
+    font-family: "BigShoulders";
+    font-size: 35px;
+    font-weight: 700;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+}
+
+.box1{
+    width: 100%;
+    padding: 50px 30px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 0px;
+    border-top-right-radius: 10px;
+}
+
+.box2{
+    width: 100%;
+    padding: 50px 30px;
+}
+
+.box3{
+    width: 100%;
+    padding: 50px 30px;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+button{
+    margin-top: 15px;
+}
+}
+    .attribution { font-size: 11px; text-align: center; color: black; }
+    .attribution a { color: hsl(228, 45%, 44%); }
