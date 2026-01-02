@@ -71,7 +71,7 @@ button{
 }
 
 .b1{color: hsl(31, 77%, 52%);}
-.b2{color: hsl(184, 100%, 22%);}
+.b2{color: hsl(184, 100%, 22%); margin-top:125px}
 .b3{color: hsl(179, 100%, 13%);}
 
 
@@ -122,4 +122,5 @@ button{
 }
 }
     .attribution { font-size: 11px; text-align: center; color: black; }
+
     .attribution a { color: hsl(228, 45%, 44%); }
